@@ -14,6 +14,11 @@
 		FBD79F3F20C871160006B3B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD79F3D20C871160006B3B9 /* LaunchScreen.storyboard */; };
 		FBD79F4A20C871160006B3B9 /* GroceryListSiriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD79F4920C871160006B3B9 /* GroceryListSiriTests.swift */; };
 		FBD79F5520C871160006B3B9 /* GroceryListSiriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD79F5420C871160006B3B9 /* GroceryListSiriUITests.swift */; };
+		FBD79F6320C87A7E0006B3B9 /* GroceriesLists.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBD79F6220C87A7E0006B3B9 /* GroceriesLists.plist */; };
+		FBD79F6520C87CA80006B3B9 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD79F6420C87CA80006B3B9 /* ListTableViewController.swift */; };
+		FBD79F6720C880690006B3B9 /* ListsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD79F6620C880690006B3B9 /* ListsTableViewCell.swift */; };
+		FBD79F6920C89B630006B3B9 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD79F6820C89B630006B3B9 /* ItemTableViewCell.swift */; };
+		FBD79F6B20C89CCB0006B3B9 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD79F6A20C89CCB0006B3B9 /* ItemTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		FBD79F5020C871160006B3B9 /* GroceryListSiriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryListSiriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD79F5420C871160006B3B9 /* GroceryListSiriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListSiriUITests.swift; sourceTree = "<group>"; };
 		FBD79F5620C871160006B3B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD79F6220C87A7E0006B3B9 /* GroceriesLists.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GroceriesLists.plist; sourceTree = "<group>"; };
+		FBD79F6420C87CA80006B3B9 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		FBD79F6620C880690006B3B9 /* ListsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsTableViewCell.swift; sourceTree = "<group>"; };
+		FBD79F6820C89B630006B3B9 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		FBD79F6A20C89CCB0006B3B9 /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				FBD79F3B20C871160006B3B9 /* Assets.xcassets */,
 				FBD79F3D20C871160006B3B9 /* LaunchScreen.storyboard */,
 				FBD79F4020C871160006B3B9 /* Info.plist */,
+				FBD79F6220C87A7E0006B3B9 /* GroceriesLists.plist */,
+				FBD79F6420C87CA80006B3B9 /* ListTableViewController.swift */,
+				FBD79F6620C880690006B3B9 /* ListsTableViewCell.swift */,
+				FBD79F6820C89B630006B3B9 /* ItemTableViewCell.swift */,
+				FBD79F6A20C89CCB0006B3B9 /* ItemTableViewController.swift */,
 			);
 			path = GroceryListSiri;
 			sourceTree = "<group>";
@@ -229,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD79F6320C87A7E0006B3B9 /* GroceriesLists.plist in Resources */,
 				FBD79F3F20C871160006B3B9 /* LaunchScreen.storyboard in Resources */,
 				FBD79F3C20C871160006B3B9 /* Assets.xcassets in Resources */,
 				FBD79F3A20C871150006B3B9 /* Main.storyboard in Resources */,
@@ -256,7 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD79F6520C87CA80006B3B9 /* ListTableViewController.swift in Sources */,
+				FBD79F6720C880690006B3B9 /* ListsTableViewCell.swift in Sources */,
+				FBD79F6920C89B630006B3B9 /* ItemTableViewCell.swift in Sources */,
 				FBD79F3720C871150006B3B9 /* ViewController.swift in Sources */,
+				FBD79F6B20C89CCB0006B3B9 /* ItemTableViewController.swift in Sources */,
 				FBD79F3520C871150006B3B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
