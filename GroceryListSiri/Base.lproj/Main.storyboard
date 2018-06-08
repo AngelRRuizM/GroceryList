@@ -116,7 +116,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="List name" id="Tx0-fN-PQk">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Lad-B8-ouY"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Lad-B8-ouY">
+                            <connections>
+                                <action selector="addItem:" destination="cFO-em-QNr" id="zKx-A9-Hkb"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y86-HY-eR3" userLabel="First Responder" sceneMemberID="firstResponder"/>
